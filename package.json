@@ -1,0 +1,24 @@
+{
+  "name": "bingo-porto",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "10.11.2",
+    "wouter": "2.9.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.4.0",
+    "sass": "1.56.1",
+    "vite": "3.2.3"
+  },
+  "description": "Juega al bingo en cualquier lugar y cualquier momento.",
+  "main": "src/index.js",
+  "author": "Alexis Klisch <work@alexisklisch.com>",
+  "license": "MIT"
+}

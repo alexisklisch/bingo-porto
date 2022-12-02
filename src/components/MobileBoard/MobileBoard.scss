@@ -1,0 +1,17 @@
+@use '/src/styles/margins' as *;
+@use '/src/styles/colors' as *;
+
+.MobileBoard {
+  color: $white;
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(10, 1fr);
+  font-size: 1.8rem;
+  @include cont-1;
+  p {
+    aspect-ratio: 1 / 1;
+    color: $blue-1;
+    padding-top: 3px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,24 @@
+@use '/src/styles/colors' as *;
+
+.Logo {
+  color: $green;
+  font-size: 6rem;
+  line-height: 3rem;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+  .t-bingo {
+    color: $white;
+    font-size: 3rem;
+    font-weight: 800;
+    position: relative;
+  };
+  .t-porto {
+    background: $gr-1;
+    font-weight: 800;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  };
+}

@@ -1,0 +1,17 @@
+@use '/src/styles/margins' as *;
+
+.logo__alexis-klisch{
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    padding: 30px 0;
+    @include cont-1;
+    svg {
+        max-height: 40px
+    };
+    h3 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+}
